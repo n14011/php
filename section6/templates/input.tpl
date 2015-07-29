@@ -10,8 +10,9 @@
       <label for="name">お名前</label>
       <input type="text" name="name"><br>
       <label for="article">記事本文</label>
-      <textarea name="article" rows="8" cols="40"></textarea>
+      <textarea name="article" rows="8" cols="40"></textarea><br>
       <input type="submit" value="確認画面へ">
+      <a href="logout.php"><input type="button" value="ログアウト"></a>
     </form>
   </body>
 </html>
