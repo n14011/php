@@ -79,8 +79,7 @@ class PostsController extends AppController {
 
 			if($pass == $this->request->data['Post']['pass']){
 				if($this->Post->delete($id)){
-					$this->Session->setFlash(
-						__('id: %s を削除しました',($id)));
+					$this->Session->setFlash(__('id: %s を削除しました',($id)));
 				}
 				$this->redirect(array('controller'=>'posts','action'=>'index'));
 			}else{
