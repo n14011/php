@@ -37,7 +37,8 @@ class PostsController extends AppController {
 				$path = IMAGES;
 				$img = $this->request->data['Post']['img'];
 				$this->Session->setFlash(__('登録しました。'));
-				move_uploaded_file($img['tmp_name'], $path . DS . $img['name'] );
+				$id = $this->Post->getLastInsertID();
+				move_uploaded_file($img['tmp_name'], $path . DS .$id . $img['name'] );
 				$data = array(
 					'Post' => array(
 						'images' => $img['name']));

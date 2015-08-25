@@ -1,7 +1,7 @@
 	<p style="font-size:20px; float:right;"><?php echo $this->Html->link( '記事一覧へ', array('controller' => 'posts', 'action' => 'index'));?> </p>
 	<h1 style="font-size:40px">投稿記事</h1>
 	<h1 style="font-size:25px " >タイトル:<?php echo h($post['Post']['title']); ?></h1>
-	<img src="../../app/webroot/img/<?php echo ($post['Post']['images']); ?>">
+	<img src="../../app/webroot/img/<?php echo ($post['Post']['id']); ?><?php echo ($post['Post']['images']); ?>">
 	<p style="font-size:20px">作成者:<?php echo h($post['Post']['name']); ?></p>
 	<p style="font-size:20px"><small>作成日: <?php echo $post['Post']['created']; ?></small></p>
 	<p style="font-size:20px" >作成者コメント:<?php echo h($post['Post']['comment']); ?></p>
