@@ -1,0 +1,408 @@
+2015-08-20 12:13:59 Debug: Array
+(
+    [conditions] => Array
+        (
+            [Comment.i_d] => 1
+        )
+
+    [fields] => 
+    [joins] => Array
+        (
+        )
+
+    [limit] => 1
+    [offset] => 
+    [order] => Array
+        (
+            [0] => 
+        )
+
+    [page] => 1
+    [group] => 
+    [callbacks] => 1
+    [recursive] => 
+)
+
+2015-08-25 19:13:38 Notice: Notice (8): Undefined variable: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 45]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 45
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:15:41 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 4]
+Trace:
+include - APP/View/Posts/add.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:16:11 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 4]
+Trace:
+include - APP/View/Posts/add.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:16:32 Notice: Notice (8): Undefined index: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 44]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:17:43 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 4]
+Trace:
+include - APP/View/Posts/add.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:17:53 Notice: Notice (8): Undefined index: ID in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 44]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:18:50 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 4]
+Trace:
+include - APP/View/Posts/add.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:19:00 Notice: Notice (8): Undefined index: ID in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 44]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:19:43 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 4]
+Trace:
+include - APP/View/Posts/add.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:19:51 Notice: Notice (8): Undefined index: ID in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 44]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:20:36 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 4]
+Trace:
+include - APP/View/Posts/add.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:20:48 Notice: Notice (8): Undefined index: ID in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 44]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:24:05 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 4]
+Trace:
+include - APP/View/Posts/add.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:24:28 Notice: Notice (8): Undefined index: ID in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 44]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:25:54 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 5]
+Trace:
+include - APP/View/Posts/add.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:25:54 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 5]
+Trace:
+include - APP/View/Posts/add.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:26:28 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 5]
+Trace:
+include - APP/View/Posts/add.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:27:14 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 5]
+Trace:
+include - APP/View/Posts/add.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:35:19 Notice: Notice (8): Undefined variable: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 120]
+Trace:
+PostsController::delete() - APP/Controller/PostsController.php, line 120
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:35:30 Notice: Notice (8): Undefined variable: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 127]
+Trace:
+PostsController::delete() - APP/Controller/PostsController.php, line 127
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:35:38 Notice: Notice (8): Undefined variable: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 127]
+Trace:
+PostsController::delete() - APP/Controller/PostsController.php, line 127
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:35:43 Notice: Notice (8): Undefined variable: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 120]
+Trace:
+PostsController::delete() - APP/Controller/PostsController.php, line 120
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:45:05 Notice: Notice (8): Undefined variable: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 39]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:45:05 Notice: Notice (8): Array to string conversion in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 41]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 41
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:46:46 Notice: Notice (8): Undefined index: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 39]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:49:31 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 6]
+Trace:
+include - APP/View/Posts/add.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:55:11 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 6]
+Trace:
+include - APP/View/Posts/add.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:55:23 Notice: Notice (8): Uninitialized string offset: 0 in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 39]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:58:34 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 6]
+Trace:
+include - APP/View/Posts/add.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:58:43 Notice: Notice (8): Uninitialized string offset: 0 in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 39]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:58:43 Notice: Notice (8): Array to string conversion in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 41]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 41
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:59:59 Notice: Notice (8): Undefined variable: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 34]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 19:59:59 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 6]
+Trace:
+include - APP/View/Posts/add.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 20:00:06 Notice: Notice (8): Undefined variable: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 34]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 20:00:06 Notice: Notice (8): Array to string conversion in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 42]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 20:05:52 Notice: Notice (8): Undefined variable: post in [/var/www/html/php/exercise2/app/View/Posts/add.ctp, line 6]
+Trace:
+include - APP/View/Posts/add.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 20:06:01 Notice: Notice (8): Uninitialized string offset: 0 in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 39]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 20:06:01 Notice: Notice (8): Array to string conversion in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 41]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 41
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-08-25 20:08:07 Notice: Notice (8): Undefined index: id in [/var/www/html/php/exercise2/app/Controller/PostsController.php, line 39]
+Trace:
+PostsController::add() - APP/Controller/PostsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+

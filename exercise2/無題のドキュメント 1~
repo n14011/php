@@ -1,0 +1,60 @@
+create table posts (
+	id int unsigned auto_increment primary key,
+	name varchar(15),
+	image mediumblob,
+	comment text,
+	created datetime default null,
+	password varchar(255),
+	title text	
+	);
+
+create table comments (
+	id int unsigned auto_increment primary key,
+	name varchar(15),
+	postid int,
+	created datetime default null,
+	comment text
+	);
+
+
+alter table commentid int unsigned auto_increment;
+alter table commid int ;
+alter table name2 varchar(15);
+alter table commentcreated datetime default null;
+alter table comment2 text;
+
+> <P>コメント一覧</p>                                                                                                                                                 
+> <p>コメント:　<?php echo h($post['Post']['comment']); ?> <br> コメント者:　<?php echo h($post['Post']['name']); ?> <br> コメント日時:　<?php echo $post['Post']['cre
+ated']; ?> </p>
+
+
+
+
+
+
+
+<table>
+> <tr>
+> > <th>id</th>
+> > <th>コメント</th>
+> > <th>コメント作成者</th>
+> > <th>作成日時</th>
+> </tr>
+> <tr>
+  <?php foreach ($comment as $Comment): ?>
+> <td><?php echo $comm['Comment']['id']; ?></td>                     
+> <td><?php echo $comm['Comment']['comment']; ?></td>
+> <td><?php echo $comm['Comment']['name']; ?> </td>
+> <td><?php echo $comm['Comment']['created']; ?> </td>
+> </tr>
+  <?php endforeach; ?>
+  <?php unset($comm); ?>
+
+</table>
+
+
+
+
+
+	
+
